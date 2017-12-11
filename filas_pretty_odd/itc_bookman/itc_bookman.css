@@ -1,0 +1,77 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3466438, 2017-10-17T14:31:13-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BookmanITCStd-Medium by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bookman/md/
+ * Copyright: Copyright 2003 International Typeface Corporation. All rights reserved.
+ * 
+ * Webfont: BookmanITCStd-MediumItalic by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bookman/md-italic/
+ * Copyright: Copyright 2003 International Typeface Corporation. All rights reserved.
+ * 
+ * Webfont: Bookman-Bold by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bookman/md-bold/
+ * Copyright: Copyright 1985, 1987, 1989, 1992, 1997, 1998, 1999 Adobe Systems Incorporated. All Rights Reserved
+ * 
+ * Webfont: Bookman-BoldItalic by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bookman/md-bold-italic/
+ * Copyright: Copyright 1985, 1987, 1989, 1992, 1997, 1998, 1999 Adobe Systems Incorporated. All Rights Reserved
+ * 
+ * Webfont: BookmanITCStd-Demi by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bookman/demi/
+ * Copyright: Copyright 2003 International Typeface Corporation. All rights reserved.
+ * 
+ * Webfont: BookmanITCStd-DemiItalic by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bookman/demi-italic/
+ * Copyright: Copyright 2003 International Typeface Corporation. All rights reserved.
+ * 
+ * Webfont: BookmanITCStd-LightItalic by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bookman/light-italic/
+ * Copyright: Copyright 2003 International Typeface Corporation. All rights reserved.
+ * 
+ * Webfont: BookmanStd-Light by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bookman/light/
+ * Copyright: &#x00A9; 1990, 2001, 2002 Adobe Systems Incorporated. All rights reserved.
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3466438
+ * Licensed pageviews: 250,000
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34e4c6");
+
+  
+@font-face {font-family: 'BookmanITCStd-Medium';src: url('webfonts/34E4C6_0_0.eot');src: url('webfonts/34E4C6_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C6_0_0.woff2') format('woff2'),url('webfonts/34E4C6_0_0.woff') format('woff'),url('webfonts/34E4C6_0_0.ttf') format('truetype'),url('webfonts/34E4C6_0_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'BookmanITCStd-MediumItalic';src: url('webfonts/34E4C6_1_0.eot');src: url('webfonts/34E4C6_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C6_1_0.woff2') format('woff2'),url('webfonts/34E4C6_1_0.woff') format('woff'),url('webfonts/34E4C6_1_0.ttf') format('truetype'),url('webfonts/34E4C6_1_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'Bookman-Bold';src: url('webfonts/34E4C6_2_0.eot');src: url('webfonts/34E4C6_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C6_2_0.woff2') format('woff2'),url('webfonts/34E4C6_2_0.woff') format('woff'),url('webfonts/34E4C6_2_0.ttf') format('truetype'),url('webfonts/34E4C6_2_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'Bookman-BoldItalic';src: url('webfonts/34E4C6_3_0.eot');src: url('webfonts/34E4C6_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C6_3_0.woff2') format('woff2'),url('webfonts/34E4C6_3_0.woff') format('woff'),url('webfonts/34E4C6_3_0.ttf') format('truetype'),url('webfonts/34E4C6_3_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'BookmanITCStd-Demi';src: url('webfonts/34E4C6_4_0.eot');src: url('webfonts/34E4C6_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C6_4_0.woff2') format('woff2'),url('webfonts/34E4C6_4_0.woff') format('woff'),url('webfonts/34E4C6_4_0.ttf') format('truetype'),url('webfonts/34E4C6_4_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'BookmanITCStd-DemiItalic';src: url('webfonts/34E4C6_5_0.eot');src: url('webfonts/34E4C6_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C6_5_0.woff2') format('woff2'),url('webfonts/34E4C6_5_0.woff') format('woff'),url('webfonts/34E4C6_5_0.ttf') format('truetype'),url('webfonts/34E4C6_5_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'BookmanITCStd-LightItalic';src: url('webfonts/34E4C6_6_0.eot');src: url('webfonts/34E4C6_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C6_6_0.woff2') format('woff2'),url('webfonts/34E4C6_6_0.woff') format('woff'),url('webfonts/34E4C6_6_0.ttf') format('truetype'),url('webfonts/34E4C6_6_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'BookmanStd-Light';src: url('webfonts/34E4C6_7_0.eot');src: url('webfonts/34E4C6_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C6_7_0.woff2') format('woff2'),url('webfonts/34E4C6_7_0.woff') format('woff'),url('webfonts/34E4C6_7_0.ttf') format('truetype'),url('webfonts/34E4C6_7_0.svg#wf') format('svg');}
+ 

@@ -1,0 +1,4 @@
+[10/9/2017, 2:21:03 PM] layer "thedrivenewyork.com copy 3": Expected end of input but "c" found.
+[10/9/2017, 2:21:03 PM] layer "thedrivenewyork.com copy 4": Expected end of input but "c" found.
+[10/9/2017, 2:21:03 PM] layer "thedrivenewyork.com copy 5": Expected end of input but "c" found.
+[10/9/2017, 2:21:03 PM] layer "thedrivenewyork.com": Unsupported extension: com

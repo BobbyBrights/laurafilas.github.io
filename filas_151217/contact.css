@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.bg_contact {
+  background-color: rgb(223, 123, 63);
+  position: absolute;
+  left: 0px;
+  top: 41600px;
+  width: 100%;
+  height: 1300px;
+  z-index: 3;
+}
+
+.contact_head {
+  font-size: 68px;
+  font-family: 'ClearfaceITCPro-Regular';
+  color: rgb(245, 177, 166);
+  font-weight: bold;
+  line-height: 1.176;
+  text-align: center;
+  position: absolute;
+  left: 136.901px;
+  top: 42127.021px;
+  width: 889px;
+  height: 133px;
+  z-index: 88;
+}
+
+.contact_body {
+  font-size: 19.25px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(244, 231, 215);
+  line-height: 1.185;
+  text-align: center;
+  position: absolute;
+  left: 180.87px;
+  top: 42402.56px;
+  width: 840px;
+  height: 117px;
+  z-index: 87;
+}
+
+.contact_body a {
+  font-size: 19.25px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(244, 231, 215);
+  text-decoration: none; 
+}
+
+.contact_body a:hover {
+  font-size: 19.25px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(245, 177, 166);
+  text-decoration: none; 
+}
+
+.contact_paragraph_bold {
+  font-family: 'AvenirLTStd-Black';
+  display: inline;
+}

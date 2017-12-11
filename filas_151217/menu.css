@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(245, 177, 166);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.sidenav a {
+    font-family: 'ClearfaceITCPro-Regular';
+    padding: 4px 8px 2px 60px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f0412c;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    text-decoration: underline;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 48px;
+    margin-left: 50px;
+	font-weight: bolder;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.hamburger1 {
+    width: 30px;
+    height: 5px;
+    background-color: #000000;
+    margin: 5px 0;
+    z-index: 500;
+	left: 20px;
+	position: absolute;
+}
+
+.hamburger2 {
+    width: 30px;
+    height: 5px;
+    background-color: #000000;
+    margin: 5px 0;
+    z-index: 500;
+	left: 20px;
+    top: 18px;
+	position: absolute;
+}
+
+.hamburger3 {
+    width: 30px;
+    height: 5px;
+    background-color: #000000;
+    margin: 5px 0;
+    z-index: 500;
+	left: 20px;
+	top: 28px;
+	position: absolute;
+}
+
+.hamburger4 {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(245, 177, 166);
+    margin: 5px 0;
+    z-index: 300;
+	left: 20px;
+	top: 10px;
+	position: fixed;
+}
+
+.hamburger5 {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(245, 177, 166);
+    margin: 5px 0;
+    z-index: 300;
+	left: 20px;
+    top: 20px;
+	position: fixed;
+}
+
+.hamburger6 {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(245, 177, 166);
+    margin: 5px 0;
+    z-index: 300;
+	left: 20px;
+	top: 30px;
+	position: fixed;
+}
+
+.small_logo {
+  background-image: url('images/smalllogo.png');
+  left: 1100px;
+  width: 102px;
+  height: 54px;
+  z-index: 500;
+  position: fixed;
+}
+
+.nav_item {
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+	background-color: rgb(245, 177, 166);
+	text-decoration: none;
+	border-radius: 7px;
+}
+
+.nav_item:hover {
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+	background-color: rgb(255, 255, 255);
+	text-decoration: none;
+	border-radius: 7px;
+}
+
+.nav {
+	position: fixed;
+	top: 50%;
+	right: 50px;
+	width: 10px;
+	z-index: 500;
+}
+
+.nav a:active {
+	background-color: #f0412c; 
+}

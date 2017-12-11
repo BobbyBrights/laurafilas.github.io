@@ -1,0 +1,52 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3490660, 2017-11-29T10:22:03-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ClearfaceITCPro-Italic by ITC
+ * URL: https://www.myfonts.com/fonts/itc/clearface/pro-italic/
+ * 
+ * Webfont: ClearfaceITCPro-Bold by ITC
+ * URL: https://www.myfonts.com/fonts/itc/clearface/pro-bold/
+ * 
+ * Webfont: ClearfaceITCPro-Heavy by ITC
+ * URL: https://www.myfonts.com/fonts/itc/clearface/pro-heavy/
+ * 
+ * Webfont: ClearfaceITCPro-Black by ITC
+ * URL: https://www.myfonts.com/fonts/itc/clearface/pro-black/
+ * 
+ * Webfont: ClearfaceITCPro-Regular by ITC
+ * URL: https://www.myfonts.com/fonts/itc/clearface/pro-regular/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3490660
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Font software Copyright 1988, 1994, 2001 Adobe Systems Incorporated. Typeface designs Copyright 2008 International Typeface Corporation. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/354364");
+
+  
+@font-face {font-family: 'ClearfaceITCPro-Italic';src: url('webfonts/354364_0_0.eot');src: url('webfonts/354364_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/354364_0_0.woff2') format('woff2'),url('webfonts/354364_0_0.woff') format('woff'),url('webfonts/354364_0_0.ttf') format('truetype'),url('webfonts/354364_0_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'ClearfaceITCPro-Bold';src: url('webfonts/354364_1_0.eot');src: url('webfonts/354364_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/354364_1_0.woff2') format('woff2'),url('webfonts/354364_1_0.woff') format('woff'),url('webfonts/354364_1_0.ttf') format('truetype'),url('webfonts/354364_1_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'ClearfaceITCPro-Heavy';src: url('webfonts/354364_2_0.eot');src: url('webfonts/354364_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/354364_2_0.woff2') format('woff2'),url('webfonts/354364_2_0.woff') format('woff'),url('webfonts/354364_2_0.ttf') format('truetype'),url('webfonts/354364_2_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'ClearfaceITCPro-Black';src: url('webfonts/354364_3_0.eot');src: url('webfonts/354364_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/354364_3_0.woff2') format('woff2'),url('webfonts/354364_3_0.woff') format('woff'),url('webfonts/354364_3_0.ttf') format('truetype'),url('webfonts/354364_3_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'ClearfaceITCPro-Regular';src: url('webfonts/354364_4_0.eot');src: url('webfonts/354364_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/354364_4_0.woff2') format('woff2'),url('webfonts/354364_4_0.woff') format('woff'),url('webfonts/354364_4_0.ttf') format('truetype'),url('webfonts/354364_4_0.svg#wf') format('svg');}
+ 

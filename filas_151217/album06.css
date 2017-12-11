@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.bg_album_6 {
+  background-color: rgb(221, 232, 224);
+  position: absolute;
+  left: -3px;
+  top: 25999px;
+  width: 100%;
+  height: 2601px;
+  z-index: 9;
+}
+
+.poster6_jpg {
+  background-image: url('images/poster6.jpg');
+  position: absolute;
+  left: 348px;
+  top: 26318px;
+  width: 709px;
+  height: 1096px;
+  z-index: 102;
+}
+
+._06_png {
+  background-image: url('images/06.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -2px;
+  top: 28219px;
+  width: 396px;
+  height: 261px;
+  z-index: 101;
+}
+
+.city_music {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(245, 177, 166);
+  line-height: 0.5;
+  text-align: left;
+  position: absolute;
+  left: 147.938px;
+  top: 27638.673px;
+  height: 44px;
+  z-index: 45;
+}
+
+.city_music a {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(245, 177, 166);
+  text-decoration: none;
+}
+
+.city_music a:hover {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(16, 87, 43);
+  text-decoration: none;
+}
+
+.kevin_morby {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(245, 177, 166);
+  line-height: 0.8;
+  text-align: left;
+  position: absolute;
+  left: 150px;
+  top: 27713.114px;
+  z-index: 46;
+}
+
+.kevin_morby a {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(245, 177, 166); 
+  text-decoration: none;
+}
+
+.kevin_morby a:hover {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(16, 87, 43); 
+  text-decoration: none;
+}
+
+.city_music_song {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(16, 87, 43);
+  line-height: 0.8;
+  position: absolute;
+  left: 150px;
+  top: 27744.38px;
+  height: 28px;
+  z-index: 47;
+}
+
+.city_music_song a {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(16, 87, 43);
+  text-decoration: none;
+}
+
+.city_music_song a:hover {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(16, 87, 43);
+  text-decoration: underline;
+}
+
+._06_review {
+  font-size: 20px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(16, 87, 43);
+  line-height: 1.1;
+  text-align: left;
+  position: absolute;
+  left: 650px;
+  top: 27954.88px;
+  width: 410px;
+  height: 334px;
+  z-index: 48;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

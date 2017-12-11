@@ -1,0 +1,251 @@
+@charset "UTF-8";
+body{
+	background-color: #f8ddcb;
+}
+
+.pale_blue_rectangle {
+  background-color: rgb(233, 242, 240);
+  position: fixed;
+  left: -41px;
+  top: -33px;
+  width: 1297px;
+  height: 138px;
+  z-index: 30;
+}
+
+.journal_ {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 29.987px;
+  top: 46.237px;
+  width: 59px;
+  height: 18px;
+  z-index: 34;
+}
+
+._shop_ {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 111.766px;
+  top: 45.909px;
+  width: 40px;
+  height: 18px;
+  z-index: 35;
+}
+
+.about {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 176.359px;
+  top: 45.972px;
+  width: 49px;
+  height: 14px;
+  z-index: 36;
+}
+
+.contact {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 247px;
+  top: 46.222px;
+  width: 62px;
+  height: 12px;
+  z-index: 37;
+}
+
+.account {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 1057.359px;
+  top: 46.222px;
+  width: 66px;
+  height: 12px;
+  z-index: 32;
+}
+
+.cart {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 1136px;
+  top: 46.222px;
+  width: 33px;
+  height: 12px;
+  z-index: 33;
+}
+
+.po_png {
+  background-image:url(images/po.png);
+  position: fixed;
+  left: 572px;
+  top: 18px;
+  width: 56px;
+  height: 65px;
+  z-index: 31;
+}
+
+.hero_png {
+  background-image: url(images/hero.png);
+  position: absolute;
+  left: 0px;
+  top: 41px;
+  width: 1500px;
+  height: 2000px;
+  z-index: 5;
+}
+
+
+.emily_jeans {
+  font-size: 72px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 0.361;
+  text-align: right;
+  position: absolute;
+  left: 799px;
+  top: 537.951px;
+  width: 380px;
+  height: 71px;
+  z-index: 10;
+}
+
+._227_00 {
+  font-size: 18px;
+  font-family: 'BookmanBTWXX-Roman';
+  color: rgb(0, 0, 0);
+  line-height: 2.333;
+  position: absolute;
+  left: 809px;
+  top: 627px;
+  width: 72px;
+  height: 16px;
+  z-index: 16;
+}
+
+.size {
+  font-size: 18px;
+  font-family: 'BookmanBTWXX-Roman';
+  color: rgb(0, 0, 0);
+  line-height: 2.333;
+  position: absolute;
+  left: 809.375px;
+  top: 690.871px;
+  width: 36px;
+  height: 12px;
+  z-index: 13;
+}
+
+.quantity {
+  font-size: 18px;
+  font-family: 'BookmanBTWXX-Roman';
+  color: rgb(0, 0, 0);
+  line-height: 2.333;
+  position: absolute;
+  left: 809px;
+  top: 738.871px;
+  width: 76px;
+  height: 17px;
+  z-index: 14;
+}
+
+.addtocart_png {
+  background-image: url(images/addtocart.png);
+  position: absolute;
+  left: 810px;
+  top: 800px;
+  width: 240px;
+  height: 56px;
+  z-index: 20;
+}
+
+.pdescription_png {
+  background-image: url(images/pdescription.png);
+  position: absolute;
+  left: 86px;
+  top: 1129px;
+  width: 241px;
+  height: 330px;
+  z-index: 8;
+}
+
+.measurement {
+  font-size: 18px;
+  font-family: 'BookmanBTWXX-Roman';
+  color: rgb(0, 0, 0);
+  line-height: 1.111;
+  position: absolute;
+  left: 825.781px;
+  top: 1110.871px;
+  width: 305px;
+  height: 137px;
+  z-index: 15;
+}
+
+.pimage2_png {
+  background-image: url(images/pimage2.png);
+  position: absolute;
+  left: 78px;
+  top: 627px;
+  width: 714px;
+  height: 852px;
+  z-index: 4;
+}
+
+
+.pimage3_png {
+  background-image: url(images/pimage3.png);
+  position: absolute;
+  left: 79px;
+  top: 1523px;
+  width: 634px;
+  height: 707px;
+  z-index: 3;
+}
+
+.dropdown1_png {
+  background-image: url(images/dropdown1.png);
+  position: absolute;
+  left: 871px;
+  top: 688px;
+  width: 118px;
+  height: 39px;
+  z-index: 16;
+}
+
+.dropdown2_png {
+  background-image: url(images/dropdown2.png);
+  position: absolute;
+  left: 901px;
+  top: 736px;
+  width: 118px;
+  height: 39px;
+  z-index: 17;
+}
+
+
+
+
+

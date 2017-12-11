@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.bg_landing {
+  background-color: rgb(245, 177, 166);
+  position: absolute;
+  left: -3px;
+  top: 0px;
+  width: 100%;
+  height: 1300px;
+  z-index: 20;
+}
+
+.herologo_png {
+  background-image: url(images/herologo.png);
+  position: absolute;
+  left: 201px;
+  top: 395px;
+  width: 798px;
+  height: 429px;
+  z-index: 128;
+}
+
+.hamburger_menu_home {
+  background-image: url(images/menuhome.png);
+  position: absolute;
+  left: 27px;
+  top: 32px;
+  width: 33px;
+  height: 27px;
+  z-index: 127;
+}
+
+.arrow1_png {
+  background-image: url(images/arrow1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 575px;
+  top: 1148px;
+  width: 48px;
+  height: 41px;
+  z-index: 126;
+}
+

@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+body{
+	background-color: #f8ddcb;
+}
+
+.pale_blue_rectangle {
+  background-color: rgb(233, 242, 240);
+  position: fixed;
+  left: -41px;
+  top: -33px;
+  width: 1297px;
+  height: 138px;
+  z-index: 30;
+}
+
+.journal_ {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 29.987px;
+  top: 46.237px;
+  width: 59px;
+  height: 18px;
+  z-index: 34;
+}
+
+._shop_ {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 111.766px;
+  top: 45.909px;
+  width: 40px;
+  height: 18px;
+  z-index: 35;
+}
+
+.about {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 176.359px;
+  top: 45.972px;
+  width: 49px;
+  height: 14px;
+  z-index: 36;
+}
+
+.contact {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 247px;
+  top: 46.222px;
+  width: 62px;
+  height: 12px;
+  z-index: 37;
+}
+
+.account {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 1057.359px;
+  top: 46.222px;
+  width: 66px;
+  height: 12px;
+  z-index: 32;
+}
+
+.cart {
+  font-size: 18px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: fixed;
+  left: 1136px;
+  top: 46.222px;
+  width: 33px;
+  height: 12px;
+  z-index: 33;
+}
+
+.po_png {
+  background-image:url(images/po.png);
+  position: fixed;
+  left: 572px;
+  top: 18px;
+  width: 56px;
+  height: 65px;
+  z-index: 31;
+}
+
+.jimage1_type_gif {
+  background-image: url(images/jimage1_type.png);
+  position: absolute;
+  left: 92px;
+  top: 159px;
+  width: 978px;
+  height: 828px;
+  z-index: 8;
+}
+
+.intro {
+  font-size: 18px;
+  font-family: 'BookmanBTWXX-Roman';
+  color: rgb(0, 0, 0);
+  line-height: 0.889;
+  position: absolute;
+  left: 602.994px;
+  top: 1171.871px;
+  width: 375px;
+  height: 160px;
+  z-index: 12;
+}
+
+._1caption_png {
+  background-image: url(images/1caption.png);
+  position: absolute;
+  left: 91px;
+  top: 1879px;
+  width: 266px;
+  height: 192px;
+  z-index: 13;
+}
+
+
+.pink {
+	font-size: 32px;
+  font-family: "Bookman Medium";
+  color: #e5a495;
+  line-height: 1.063;
+  position: absolute;
+  left: 91px;
+  top: 1908.104px;
+  width: 266px;
+  height: 192px;
+  z-index: 14;
+  
+}
+
+
+.jimage2_3_gif {
+  background-image: url(images/jimage2_3.png);
+  position: absolute;
+  left: 92px;
+  top: 1159px;
+  width: 716px;
+  height: 1070px;
+  z-index: 9;
+}
+
+.jimage4_jpg {
+  background-image: url(images/jimage4.png);
+  position: absolute;
+  left: 92px;
+  top: 2305px;
+  width: 650px;
+  height: 934px;
+  z-index: 10;
+}
+
+.jimage5_png {
+  background-image: url(images/jimage5.png);
+  position: absolute;
+  left: 88px;
+  top: 3315px;
+  width: 654px;
+  height: 778px;
+  z-index: 11;
+}
+
+a{
+	color:#e6a899;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#db1b10;
+}
+
+
+
+
+
+
+
+

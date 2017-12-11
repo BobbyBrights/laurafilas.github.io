@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+.bg_album_13 {
+  background-color: rgb(41, 86, 177);
+  position: absolute;
+  left: -3px;
+  top: 7799px;
+  width: 100%;
+  height: 2601px;
+  z-index: 16;
+}
+
+.poster13_jpg {
+  background-image: url('images/poster13.jpg');
+  position: absolute;
+  left: 348px;
+  top: 8122px;
+  width: 706px;
+  height: 1090px;
+  z-index: 116;
+}
+
+._13_png {
+  background-image: url('images/13.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -12px;
+  top: 10019px;
+  width: 364px;
+  height: 261px;
+  z-index: 115;
+}
+
+.somersault {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(223, 123, 63);
+  line-height: 0.5;
+  text-align: left;
+  position: absolute;
+  left: 147.408px;
+  top: 9440.138px;
+  height: 37px;
+  z-index: 73;
+}
+
+.somersault a {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(223, 123, 63);
+  text-decoration: none;
+}
+
+.somersault a:hover {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(245, 177, 166);
+  text-decoration: none;
+}
+
+.beach_fossils {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(223, 123, 63);
+  line-height: 0.8;
+  text-align: left;
+  position: absolute;
+  left: 150px;
+  top: 9513px;
+  z-index: 74;
+}
+
+.beach_fossils a {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(223, 123, 63);
+  text-decoration: none;
+}
+
+.beach_fossils a:hover {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(245, 177, 166);
+  text-decoration: none;
+}
+
+.may_1st {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(245, 177, 166);
+  line-height: 0.8;
+  position: absolute;
+  left: 150px;
+  top: 9544.38px;
+  height: 28px;
+  z-index: 75;
+}
+
+.may_1st a {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(245, 177, 166);
+	text-decoration: none;
+}
+
+.may_1st a:hover {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(245, 177, 166);
+	text-decoration: underline;
+}
+
+._13_review {
+  font-size: 20px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(251, 195, 138);
+  line-height: 1.1;
+  text-align: left;
+  position: absolute;
+  left: 650px;
+  top: 9757.212px;
+  width: 410px;
+  height: 406px;
+  z-index: 76;
+}
+
+
+
+

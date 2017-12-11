@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+.bg_album_12 {
+  background-color: rgb(245, 204, 198);
+  position: absolute;
+  left: -3px;
+  top: 10399px;
+  width: 100%;
+  height: 2601px;
+  z-index: 15;
+}
+
+.poster12_jpg {
+  background-image: url('images/poster12.jpg');
+  position: absolute;
+  left: 348px;
+  top: 10721px;
+  width: 706px;
+  height: 1091px;
+  z-index: 114;
+}
+
+._12_png {
+  background-image: url('images/12.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -12px;
+  top: 12619px;
+  width: 364px;
+  height: 259px;
+  z-index: 113;
+}
+
+.sugaratthegate {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(254, 50, 61);
+  line-height: 0.5;
+  text-align: left;
+  position: absolute;
+  left: 147.408px;
+  top: 12040.138px;
+  height: 45px;
+  z-index: 69;
+}
+
+.sugaratthegate a {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(254, 50, 61);
+  text-decoration: none;
+}
+
+.sugaratthegate a:hover {
+  font-size: 50px;
+  font-family: 'ClearfaceITCPro-Bold';
+  color: rgb(244, 231, 215);
+  text-decoration: none;
+}
+
+.tops {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(254, 50, 61);
+  line-height: 0.8;
+  text-align: left;
+  position: absolute;
+  left: 150.062px;
+  top: 12113.38px;
+  z-index: 70;
+}
+
+.tops a {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(254, 50, 61);
+  text-decoration: none;
+}
+
+.tops a:hover {
+  font-size: 30px;
+  font-family: 'AvenirLTStd-Black';
+  color: rgb(244, 231, 215);
+  text-decoration: none;
+}
+	
+.marigold_gray {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(244, 231, 215);
+  line-height: 0.8;
+  position: absolute;
+  left: 150px;
+  top: 12144.068px;
+  height: 30px;
+  z-index: 71;
+}
+
+.marigold_gray a {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(244, 231, 215);
+  text-decoration: none;
+}
+
+.marigold_gray a:hover {
+  font-size: 28px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(244, 231, 215);
+  text-decoration: underline;
+}
+
+._12_review {
+  font-size: 20px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(244, 231, 215);
+  line-height: 1.1;
+  text-align: left;
+  position: absolute;
+  left: 650px;
+  top: 12357.212px;
+  width: 410px;
+  height: 263px;
+  z-index: 72;
+}
+
+
+
+

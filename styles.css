@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.bg {
+  background-color: rgb(252, 217, 211);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+.laurafilas {
+  background-image: url("images/laurafilas.png");
+  position: absolute;
+  left: 22px;
+  top: 23px;
+  width: 896px;
+  height: 152px;
+  z-index: 3;
+}
+
+.project_1 {
+  font-size: 40px;
+  font-family: "Futura";
+  color: rgb(0, 71, 186);
+  line-height: 2.222;
+  text-align: center; 
+  position: absolute;
+  top: 406.439px;
+  width: 100%;
+  height: 38px;
+  z-index: 4;
+  font-weight: bold;
+}
+
+.project_1 a {
+  font-size: 40px;
+  font-family: "Futura";
+  color: rgb(0, 71, 186);
+  text-decoration: none;
+}
+
+.project_1 a:hover {
+  font-size: 40px;
+  font-family: "Futura";
+  color: #fe323d;
+  text-decoration: none;
+}
+
+.pretty_odd {
+  font-size: 30px;
+  font-family: 'AlbertusMTPro';
+  color: rgb(254, 50, 61);
+  line-height: 2.667;
+  text-align: center;
+  position: absolute;
+  top: 478.75px;
+  width: 100%;
+  height: 28px;
+  z-index: 50;
+}
+
+.project_2 {
+  font-size: 40px;
+  font-family: "Futura";
+  color: rgb(0, 71, 186);
+  line-height: 2.222;
+  text-align: center;
+  position: absolute;
+  top: 647.892px;
+  width: 100%;
+  height: 38px;
+  z-index: 7;
+  font-weight: bold;
+}
+
+.project_2 a {
+  font-size: 40px;
+  font-family: "Futura";
+  color: rgb(0, 71, 186);
+  text-decoration: none;
+}
+
+.project_2 a:hover {
+  font-size: 40px;
+  font-family: "Futura";
+  color: #fe323d;
+  text-decoration: none;
+}
+
+.fifteen_twelve_seventeen {
+  font-size: 30px;
+  font-family: 'AlbertusMTPro';
+  color: rgb(254, 50, 61);
+  line-height: 2.667;
+  text-align: center;
+  position: absolute;
+  top: 719.75px;
+  width: 100%;
+  height: 23px;
+  z-index: 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3495561, 2017-12-11T10:52:15-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AlbertusMTPro by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/albertus/pro-roman/
+ * Copyright: Font software (c) 1992 Adobe Systems Incorporated. Typeface designs (c) 1992 The Monotype Corporation. All rights reserved.
+ * 
+ * Webfont: AlbertusMTStd by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/albertus/std-roman/
+ * Copyright: Font software (c) 1992 Adobe Systems Incorporated. Typeface designs (c) 1992 The Monotype Corporation. All rights reserved.
+ * 
+ * Webfont: AlbertusMT by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/albertus/mt/
+ * Copyright: Digitized data copyright The Monotype Corporation 1991-1995. All rights reserved. Albertus&#x00AE; is a trademark of The Monotype Corporation which may be registered in certain jurisdictions.
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3495561
+ * Licensed pageviews: 250,000
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/355689");
+
+  
+@font-face {font-family: 'AlbertusMTPro';src: url('webfonts/355689_0_0.eot');src: url('webfonts/355689_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/355689_0_0.woff2') format('woff2'),url('webfonts/355689_0_0.woff') format('woff'),url('webfonts/355689_0_0.ttf') format('truetype'),url('webfonts/355689_0_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'AlbertusMTStd';src: url('webfonts/355689_1_0.eot');src: url('webfonts/355689_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/355689_1_0.woff2') format('woff2'),url('webfonts/355689_1_0.woff') format('woff'),url('webfonts/355689_1_0.ttf') format('truetype'),url('webfonts/355689_1_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'AlbertusMT';src: url('webfonts/355689_2_0.eot');src: url('webfonts/355689_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/355689_2_0.woff2') format('woff2'),url('webfonts/355689_2_0.woff') format('woff'),url('webfonts/355689_2_0.ttf') format('truetype'),url('webfonts/355689_2_0.svg#wf') format('svg');}
+ 

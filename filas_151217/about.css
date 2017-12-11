@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+.bg_about_info {
+  background-color: rgb(223, 123, 63);
+  position: absolute;
+  left: -3px;
+  top: 1299px;
+  width: 100%;
+  height: 1300px;
+  z-index: 19;
+}
+
+.bg_about_info > section {
+  background-color: rgb(223, 123, 63);
+  position: absolute;
+  left: -3px;
+  top: 1299px;
+  width: 100%;
+  height: 1300px;
+  z-index: 19;
+}
+
+.link_png {
+  background-image: url(images/link.png);
+  left: 27px;
+  top: 100px; 
+  width: 16px;
+  height: 246px;
+  z-index: 122;
+  position: fixed;
+}
+
+.head_about {
+  font-size: 68px;
+  font-family: 'ClearfaceITCPro-Regular';
+  color: rgb(245, 177, 166);
+  line-height: 1.176;
+  text-align: center;
+  position: absolute;
+  left: 152.204px;
+  top: 1830.138px;
+  width: 889px;
+  height: 133px;
+  z-index: 24;
+}
+
+.head_bold {
+  font-family: 'ClearfaceITCPro-Heavy';
+  display: inline;
+}
+
+.about_paragraph {
+  font-size: 19.25px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(244, 231, 215);
+  line-height: 1.185;
+  text-align: center;
+  position: absolute;
+  left: 180.74px;
+  top: 2104.707px;
+  width: 830px;
+  height: 94px;
+  z-index: 23;
+  text-decoration: none; 
+}
+
+.about_paragraph a {
+  font-size: 19.25px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(244, 231, 215);
+  text-decoration: none; 
+}
+
+.about_paragraph a:hover {
+  font-size: 19.25px;
+  font-family: 'AvenirLTStd-Light';
+  color: rgb(245, 177, 166);
+  text-decoration: none; 
+}
+
+.about_paragraph_bold {
+  font-family: 'AvenirLTStd-Black';
+  display: inline;
+  color: rgb(244, 231, 215);
+  text-decoration: none;
+}
+
+.about_paragraph_bold a {
+  font-family: 'AvenirLTStd-Black';
+  display: inline;
+  text-decoration: none; 
+}
+
+.about_paragraph_bold:hover {
+  font-family: 'AvenirLTStd-Black';
+  display: inline;
+  text-decoration: none;
+  color: rgb(245, 177, 166);
+}
+
+.arrow2_png {
+  background-image: url(images/arrow2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 575px;
+  top: 2447px;
+  width: 48px;
+  height: 41px;
+  z-index: 125;
+}
+
+
+
+

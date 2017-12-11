@@ -1,0 +1,46 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3466435, 2017-10-17T14:28:44-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BookmanBTWXX-Roman by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/bookman/bookman/
+ * 
+ * Webfont: BookmanBTWXX-Italic by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/bookman/italic/
+ * 
+ * Webfont: BookmanHdBTWXX-Roman by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/bookman/headline/
+ * 
+ * Webfont: BookmanItHdBTWXX-Italic by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/bookman/headline-italic/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3466435
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34e4c3");
+
+  
+@font-face {font-family: 'BookmanBTWXX-Roman';src: url('webfonts/34E4C3_0_0.eot');src: url('webfonts/34E4C3_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C3_0_0.woff2') format('woff2'),url('webfonts/34E4C3_0_0.woff') format('woff'),url('webfonts/34E4C3_0_0.ttf') format('truetype'),url('webfonts/34E4C3_0_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'BookmanBTWXX-Italic';src: url('webfonts/34E4C3_1_0.eot');src: url('webfonts/34E4C3_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C3_1_0.woff2') format('woff2'),url('webfonts/34E4C3_1_0.woff') format('woff'),url('webfonts/34E4C3_1_0.ttf') format('truetype'),url('webfonts/34E4C3_1_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'BookmanHdBTWXX-Roman';src: url('webfonts/34E4C3_2_0.eot');src: url('webfonts/34E4C3_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C3_2_0.woff2') format('woff2'),url('webfonts/34E4C3_2_0.woff') format('woff'),url('webfonts/34E4C3_2_0.ttf') format('truetype'),url('webfonts/34E4C3_2_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'BookmanItHdBTWXX-Italic';src: url('webfonts/34E4C3_3_0.eot');src: url('webfonts/34E4C3_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34E4C3_3_0.woff2') format('woff2'),url('webfonts/34E4C3_3_0.woff') format('woff'),url('webfonts/34E4C3_3_0.ttf') format('truetype'),url('webfonts/34E4C3_3_0.svg#wf') format('svg');}
+ 

@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fifteen Twelve Seventeen</title>
+<link href="landing.css" rel="stylesheet" type="text/css">
+<link href="about.css" rel="stylesheet" type="text/css">
+<link href="itc_clearface/itc_clearface_pro.css" rel="stylesheet" type="text/css">
+<link href="avenir/avenir_more.css" rel="stylesheet" type="text/css">
+<link href="album 15.css" rel="stylesheet" type="text/css">
+<link href="album14.css" rel="stylesheet" type="text/css">
+<link href="album13.css" rel="stylesheet" type="text/css">
+<link href="album12.css" rel="stylesheet" type="text/css">
+<link href="album11.css" rel="stylesheet" type="text/css">
+<link href="album10.css" rel="stylesheet" type="text/css">
+<link href="album09.css" rel="stylesheet" type="text/css">
+<link href="album08.css" rel="stylesheet" type="text/css">
+<link href="album07.css" rel="stylesheet" type="text/css">
+<link href="album06.css" rel="stylesheet" type="text/css">
+<link href="album05.css" rel="stylesheet" type="text/css">
+<link href="album04.css" rel="stylesheet" type="text/css">
+<link href="album03.css" rel="stylesheet" type="text/css">
+<link href="album02.css" rel="stylesheet" type="text/css">
+<link href="album01.css" rel="stylesheet" type="text/css">
+<link href="contact.css" rel="stylesheet" type="text/css">
+<link href="menu.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/linkhover.png')">
+<!-- Menu -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" style="text-decoration:none" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#fifteen">Fifteen</a>
+  <a href="#fourteen">Fourteen</a>
+  <a href="#thirteen">Thirteen</a>
+  <a href="#twelve">Twelve</a>
+  <a href="#eleven">Eleven</a>
+  <a href="#ten">Ten</a>
+  <a href="#nine">Nine</a>
+  <a href="#eight">Eight</a>
+  <a href="#seven">Seven</a>
+  <a href="#six">Six</a>
+  <a href="#five">Five</a>
+  <a href="#four">Four</a>
+  <a href="#three">Three</a>
+  <a href="#two">Two</a>
+  <a href="#one">One</a><br/><br/>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div id="main">
+  <span style="cursor:pointer" onclick="openNav()"><div class="hamburger4"></div>
+  <div class="hamburger5"></div>
+  <div class="hamburger6"></div></span>
+</div>
+
+<a class="link_png" href="https://open.spotify.com/user/lauralucy_f/playlist/214GC0t5g2O1my07fXNebH" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('link','','images/linkhover.png',1)"><img src="images/link.png" alt="" width="16" height="246" id="link"></a> 
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "350px";
+    document.getElementById("main").style.marginLeft = "350px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+	
+	<a href="#home"><div class="small_logo"></div></a>
+
+<!-- Side Nav -->
+<script>
+	$(document).ready(function () {
+	$(document).on("scroll", onScroll);
+
+});
+
+function onScroll(event){
+	var scrollPosition = $(document).scrollTop();
+    $('nav a').each(function () {
+      var currentLink = $(this);
+      var refElement = $(currentLink.attr("href"));
+      if (refElement.position().top <= scrollPosition 
+          && refElement.position().top + refElement.height() > scrollPosition) {
+        $('nav ul li a').removeClass("active");
+        currentLink.addClass("active");
+      }
+      else{
+        currentLink.removeClass("active");
+      }
+    });
+}
+</script>
+
+<div class="nav">
+<a class="active" href="#about"><div class="nav_item"></div></a>	
+<a href="#fifteen"><section class="nav_item"></section></a>
+<a href="#fourteen"><section class="nav_item"></section></a>
+<a href="#thirteen"><section class="nav_item"></section></a>
+<a href="#twelve"><section class="nav_item"></section></a>
+<a href="#eleven"><section class="nav_item"></section></a>
+<a href="#ten"><section class="nav_item"></section></a>
+<a href="#nine"><section class="nav_item"></section></a>
+<a href="#eight"><section class="nav_item"></section></a>
+<a href="#seven"><section class="nav_item"></section></a>
+<a href="#six"><section class="nav_item"></section></a>
+<a href="#five"><section class="nav_item"></section></a>
+<a href="#four"><section class="nav_item"></section></a>
+<a href="#three"><section class="nav_item"></section></a>
+<a href="#two"><section class="nav_item"></section></a>
+<a href="#one"><section class="nav_item"></section></a>
+<a href="#contact"><section class="nav_item"></section></a>
+</div>
+
+<!-- Landing -->
+<section id="home" class="bg_landing"></section>
+<div class="herologo_png"></div>
+<div class="arrow1_png"></div>
+
+<!-- About -->
+<section id="about" class="bg_about_info"></section>
+<div class="head_about">The <div class="head_bold">Fifteen</div> Best <div class="head_bold">Twelve</div>-Inches of Two Thousand <div class="head_bold">Seventeen</div>.</div>
+<div class="about_paragraph">Sometimes it can be hard to find good music. <a href="https://open.spotify.com/user/lauralucy_f/playlist/214GC0t5g2O1my07fXNebH" target="_blank"><div class="about_paragraph_bold">Fifteen Twelve Seventeen</div></a> is a yearly project curated and designed by Laura Filas in an effort to bring more attention to some of the good music that might’ve otherwise been missed. Each album is accompanied by a poster capturing its essence. So, stop the search and break out your head phones or maybe even buy the records.  </div>
+<div class="arrow2_png"></div>
+
+<!-- Album 15 -->
+<section id="fifteen" class="bg_album_15"></section>
+<div class="poster15_jpg"></div>
+<div class="_15_png"></div>
+<div class="_15_sunrise"><a href="https://open.spotify.com/album/1iiwGy9VPdT1Rn26lpOXAn" target="_blank">15 Sunrise</a></div>
+<div class="calico_blue"><a href="https://open.spotify.com/artist/3MEplpQvKXbVw4qtTStjct" target="_blank">Calico Blue</a></div>
+<div class="velvet"><a href="https://open.spotify.com/track/77gE0JMcERVQ63woyNnyZG" target="_blank">Velvet</a></div>
+<div class="_15_review">If there’s a simple way to describe this album, it’s that it is rich in texture. Calico Blue blend psychedelic rock and blues-y surf rock together seamlesly to form a completely fresh and simultaneously revived sound. Jangly guitars and velvety percussion juxtapose lead vocalist, Sarah Addi’s lush and mysterious crooning to compliment an album urgent, yet full of hope and light creeping in.</div>
+
+<!-- Album 14 -->
+<section id="fourteen" class="bg_album_14"></section>
+<div class="poster14_jpg"></div>
+<div class="_14_png"></div>
+<div class="charlemont_reef"><a href="https://open.spotify.com/album/7nwZFCgtbTnCiftIeEi6oN" target="_blank">Charlemont Reef</a></div>
+    <div class="sagamore"><a href="https://open.spotify.com/artist/55GXzDMueurx9Q9mTa8Lm9" target="_blank">Sagamore</a></div>
+<div class="the_bridge"><a href="https://open.spotify.com/track/14lyi7hdXtDU5TPiYSNIfB" target="_blank">The Bridge</a></div>
+<div class="_14_review">If you’re unfamiliar with the band Sagamore, you’ll never believe that Charlemont Reef is their debut full-length album. Already giving off a sense of maturity and direction that is usually only achieved by a band’s third album, the 5-piece crafts a burst of hazy energy peppered in upbeat guitar riffs, soulful vocals, and artful horns within the constraints of nine tracks. A hybrid of psychedelic rock and roots, the album is recieved just as the sweet, warm night air coming through your window at night sometime in June. </div>
+
+<!-- Album 13 -->
+<section id="thirteen" class="bg_album_13"></section>
+<div class="poster13_jpg"></div>
+<div class="_13_png"></div>
+	<div class="somersault"><a href="https://open.spotify.com/album/6Kkz3vJXJzemMSQkbsqWQR" target="_blank">Somersault</a></div>
+	<div class="beach_fossils"><a href="https://open.spotify.com/artist/1bwUhKRmEkOZ1wuTnV9XjC" target="_blank">Beach Fossils</a></div>
+<div class="may_1st"><a href="https://open.spotify.com/track/5yaO6I0gPMq6OgkroE7Pfd" target="_blank">May 1st</a></div>
+<div class="_13_review">After a four-year hiatus, Beach Fossils are finally back with the much anticipated Somersault. Reshaping their signature surf rock/dream pop combo into something transcendent and even more nuanced than ever before, the boys prove that they are able to push themselves into territory beyond the comfort zone of  the clouds hanging over a hazy summer’s day without losing the recipe for what made their songs so special and effortless from the beginning. Simply put, they’ve added string arrangements, a flute solo, some saxaphone, and a feature from Cities Aviv––producing a landscape of sound that can’t compare to anything else. </div>
+
+<!-- Album 12 -->
+<section id="twelve" class="bg_album_12"></section>
+<div class="poster12_jpg"></div>
+<div class="_12_png"></div>
+	<div class="sugaratthegate"><a href="https://open.spotify.com/album/2YPFFow96E7eApj82Vd6AG" target="_blank">Sugar at the Gate</a></div>
+<div class="tops"><a href="https://open.spotify.com/artist/2SdK1QDmZIP2hk94rSaLl9" target="_blank">TOPS</a></div>
+<div class="marigold_gray"><a href="https://open.spotify.com/track/0aAG4u48QY3ihTKNe2Q42o" target="_blank">Marigold & Gray</a></div>
+<div class="_12_review">TOPS’ third album Sugar at the Gate, beams with Rumours-esque glam and a marriage of some type of mysterious disco and 80s synth pop. Though Sugar at the Gate isn’t a gutting of past endeavors, but rather something of <br/> a careful refinement, the vocals manage to effortlessly reel you into a euphoric pool of pastel sounds just as well as past albums. <br/> And once you start listening, it’s pretty difficult to stop. </div>
+
+<!-- Album 11 -->
+<section id="eleven" class="bg_album_11"></section>
+<div class="poster11_jpg"></div>
+<div class="_11_png"></div>
+	<div class="aron_title"><a href="https://open.spotify.com/album/2C1BpAkSn20gohhygpy2fR" target="_blank">Aron D'alesio</a></div>
+	<div class="aron_small"><a href="https://open.spotify.com/artist/68Qyu9eHArbRgtt7xP8YNO" target="_blank">Aron D'alesio</a></div>
+<div class="wrongend"><a href="https://open.spotify.com/track/2qXU9zyqkts8TkQ5sR8Osu" target="_blank">Wrong End of a Knife</a></div>
+<div class="_11_review">The frontman of Ontario-based band Young Rival, Aron D’alesio is no stranger to  ‘60s rock influence––and you can definitely hear it on his debut, solo record. It is best listened to crackiling on vinyl in the dark of a winter night or, you know, any other time you please. A satisfying blend of the warmth of nostalgia and the excitement of something refreshing, the album is impossible not to fall in love with. </div>
+
+<!-- Album 10 -->
+<section id="ten" class="bg_album_10"></section>
+<div class="poster10_jpg"></div>
+<div class="_10_png"></div>
+	<div class="outsidebriefly"><a href="https://open.spotify.com/album/3zenNrheI8eR1GZXduB9y3" target="_blank">Outside (Briefly)</a></div>
+<div class="froth"><a href="https://open.spotify.com/artist/1KtOqfwCbclwg7bgvsUJ5U" target="_blank">Froth</a></div>
+<div class="shatter"><a href="https://open.spotify.com/track/66fGYnTKjn2H1ZutAdUWe4" target="_blank">Shatter</a></div>
+<div class="_10_review">Nothing short of their signature brand of fuzzed-out shoegaze, Froth craft a record that remains dreamy, yet strays far from psychedelic predecessors or contemporaries. Marbled in both slow, winding, and light tracks and heavier, krautrock-laced pieces, Outside (Briefly) flows lazily and facilely like an unpredictable journey your ear can’t help but follow. Pretty impressive for a band that started out as a prank a few years back.</div>
+
+<!-- Album 09 -->
+<section id="nine" class="bg_album_9"></section>
+<div class="poster9_jpg"></div>
+<div class="_09_png"></div>
+	<div class="tiamo"><a href="https://open.spotify.com/album/08rZ2mw2qwx60vOJtozqbh" target="_blank">Ti Amo</a></div>
+	<div class="phoenix"><a href="https://open.spotify.com/artist/1xU878Z1QtBldR7ru9owdU" target="_blank">Phoenix</a></div>
+<div class="rolemodel"><a href="https://open.spotify.com/track/1lF6qMrapdjGraQTRfYtAW" target="_blank">Role Model</a></div>
+<div class="_09_review">Well, this album is probably a lot more talked about than any of the others on this list, so let’s keep it short. This is French rock group, Phoenix’s sixth album and it’s everything you could ever want and more. A bursting ray of sunshine-y synth pop, soft rock, and disco drench you in bliss. It’s simply an exceptional album and you must listen to it. </div>
+
+<!-- Album 08 -->
+<section id="eight" class="bg_album_8"></section>
+<div class="poster8_jpg"></div>
+<div class="_08_png"></div>
+	<div class="hang"><a href="https://open.spotify.com/album/2gLCtAv2b62c5pvgxQhjjM" target="_blank">Hang</a></div>
+	<div class="foxygen"><a href="https://open.spotify.com/artist/55LHFEtIplWhsfyWZUwkf4" target="_blank">Foxygen</a></div>
+<div class="followtheleader"><a href="https://open.spotify.com/track/5XjwPZtK5rn5uP7YgRd08U" target="_blank">Follow the Leader</a></div>
+<div class="_08_review">Only eight songs long (oh man), but quite a star. Foxygen’s latest endeavor almost completely abandons their past sound in place of the theatrical grandoisity of  ‘70s glam rock, remniscent of Hunky Dory-era Bowie. However much it points to the past, it is still infused with something unexpected. Artful and full of pomp and confidence (and an entire orchestra), it hits your ears hard. Something you have to listen to a few times to truly understand the beauty, absurdity, and satire it carries. If you do spend the time with Hang, the reward you reap is almost as grand as the album itself.</div>
+
+<!-- Album 07 -->
+<section id="seven" class="bg_album_7"></section>
+<div class="poster7_jpg"></div>
+<div class="_07_png"></div>
+	<div class="please_be_mine"><a href="https://open.spotify.com/album/4nxehYQ0JZ78h1n6ATcYFj" target="_blank">Please Be Mine</a></div>
+<div class="molly_burch"><a href="https://open.spotify.com/artist/6bEYoIUTLdcs4lZBNVw5L5" target="_blank">Molly Burch</a></div>
+<div class="try"><a href="https://open.spotify.com/track/3XNNKdI1mL6xAXaN5QADkk" target="_blank">Try</a></div>
+<div class="_07_review">A collection of love songs has never sounded so good. Please Be Mine is another debut that sounds far too sophisticated to be a debut. What’s even more unbelievable? It <br/>was tracked live in only one day. Though all ten tracks revolve around one topic, they are anything but monotonous. Burch’s sultry, plush voice drapes over retro reverb-drenched Americana remniscent of some cinematic endeavor from the ‘50s or ’60s. Where the music is slow, the vocals are charged with swirling emotion and steal the show (and your heart) and where it picks up, Burch’s voice strikes through with a rare, remarkable force. </div>
+
+<!-- Album 06 -->
+<section id="six" class="bg_album_6"></section>
+<div class="poster6_jpg"></div>
+<div class="_06_png"></div>
+	<div class="city_music"><a href="https://open.spotify.com/album/2vBwQxoey9MJ7CApSpGya9" target="_blank">City Music</a></div>
+	<div class="kevin_morby"><a href="https://open.spotify.com/artist/6fxk3UXHTFYET8qCT9WlBF" target="_blank">Kevin Morby</a></div>
+<div class="city_music_song"><a href="https://open.spotify.com/track/4equkWkj4HbZD3OXHhpdnH" target="_blank">City Music</a></div>
+<div class="_06_review">City Music is Kevin Morby’s fourth album and arguably the most beautiful one. A gentle, melancholic, hopeful, naïve, narrative full of poetic wisdoms of romantic notions and the dislocation, isolation, and distress of city life, City Music brings to attention the lack of hope in humanity we might face in today’s political climate while simultaneously eliciting glimmers of optimism within our hearts. The record is a feat not many contemporaries could pull off. Raw and powerful and haun-ting, the record shines and leaves you feeling alright and transformed for the better.</div>
+
+<!-- Album 05 -->
+<section id="five" class="bg_album_5"></section>
+<div class="poster5_jpg"></div>
+<div class="_05_png"></div>
+	<div class="wildlyidle"><a href="https://open.spotify.com/album/6U8MP9A9MF2fTdFRf0RTr1" target="_blank">Wildly Idle (Humble Before The Void)</a></div>
+	<div class="handhabits"><a href="https://open.spotify.com/artist/5poU7FPEYoBlwjzOEWMbX5" target="_blank">Hand Habits</a></div>
+<div class="nitelife"><a href="https://open.spotify.com/track/3ukEfYEjL7RBvP7Slyu39A" target="_blank">Nite Life</a></div>
+<div class="_05_review">Wildly Idle (Humble Before The Void) is a soft, yet powerful album which steals you away to soar high above a vast, empty American desert, striking you with your insignificance as you look down below at the chimerical land-scape. Meg Duffy’s vocals are so arresting you won’t want to move or speak or whisper or even take a breath to disrupt the phenomenal beauty of what you’re hearing and the inst-rumentation lines your journey with a sonic quality both immensely calming and midly eerie. Truly a rare and tenderly captivating gem, it will leave you overwhelmed in the most satisfying way possible and maybe a little teary-eyed.</div>
+
+<!-- Album 04 -->
+<section id="four" class="bg_album_4"></section>
+<div class="poster4_jpg"></div>
+<div class="_04_png"></div>
+	<div class="routines"><a href="https://open.spotify.com/album/60Z1NWmapWQBmNNtyN9DbE" target="_blank">Routines</a></div>
+	<div class="hoops"><a href="https://open.spotify.com/artist/12qS7lypMdpvASeNnFXtmN" target="_blank">Hoops</a></div>
+<div class="sunsout"><a href="https://open.spotify.com/track/7M9LKoGmelhGBj5jQACPd8" target="_blank">Sun's Out</a></div>
+<div class="_04_review">If there’s one lo-fi/dream pop album that you simply must listen to, it’s this one. Routines is not necessarily shocking, but it tends to stray from that which is so overdone within the genre. A blissed-out collection of eleven tracks inspired by the ‘80s, the album is crow-ded by lush, hazy guitar riffs, warm vintage synths, and of course, the most interesting vocals. Pink-orange sunsets, roadtrips to the beach, and warm breezes come to mind when you listen to this record. And no matter what, your ears never grow tired of hearing it all. </div>
+
+<!-- Album 03 -->
+<section id="three" class="bg_album_3"></section>
+<div class="poster3_jpg"></div>
+<div class="_03_png"></div>
+	<div class="thebaberainbow"><a href="https://open.spotify.com/album/4SJjaJoFzSLiRY34F5hl2t" target="_blank">The Babe Rainbow</a></div>
+	<div class="baberainbow_artist"><a href="https://open.spotify.com/artist/2UmG7WphL1CMN7mVWyhE7u" target="_blank">The Babe Rainbow</a></div>
+<div class="survival"><a href="https://open.spotify.com/track/7MEh6AhqKVbJ246rwsjNN7" target="_blank">Survival Into the 21st Century</a></div>
+<div class="_03_review">Well, let’s take a trip back to the kaleidescopic late ‘60s. Floating through an alternate time and space is where you will find yourself when listening through songs with playfully strange titles like “Peace Blossom Boogy”.  Lofty but not aloof, the sounds of The Babe Rainbow conjugate a time that has passed with the present and shape it––as effortlessly as you can play-doh––into something fresh and charming. Feathery vocals softly drift into groovy guitar solos, remniscent of sunny days on the beach, only this beach is far off and doused in an unusual wash of pulsing colors.  </div>
+
+<!-- Album 02 -->
+<section id="two" class="bg_album_2"></section>
+<div class="poster2_jpg"></div>
+<div class="_02_png"></div>
+	<div class="faye_webster"><a href="https://open.spotify.com/album/33jl8hG60q1xxP92e0GplE" target="_blank">Faye Webster</a></div>
+<div class="fayewebster_artist"><a href="https://open.spotify.com/artist/5szilpXHcwOqnyKLqGco5j" target="_blank">Faye Webster</a></div>
+<div class="shewont"><a href="https://open.spotify.com/track/3VJonBmEOOfXXfKRdmpBbG" target="_blank">She Won't Go Away</a></div>
+<div class="_02_review">A remarkably vulnerable and breathtaking brooding of Americana (on a rap label), Faye Webster’s self-titled album is no debut, but her sophomore effort. No sophomore slump here though. Webster charms with her cosmic voice weaving a web of dazzling sound, impo-ssible not to resonate with. Each song tells a story and each story drowns you in a satiny sea of absolute delight.</div>
+
+<!-- Album 01 -->
+<section id="one" class="bg_album_1"></section>
+<div class="poster1_jpg"></div>
+<div class="_01_png"></div>
+	<div class="beauty_sadness"><a href="https://open.spotify.com/album/3sAjuoO0nWzYZO3vw142uC" target="_blank">Beauty & Sadness</a></div>
+	<div class="horsebeach"><a href="https://open.spotify.com/artist/1z0OEnD3fL4Zwyud1f1CNL" target="_blank">Horsebeach</a></div>
+<div class="imustwork"><a href="https://open.spotify.com/track/6h36wKQxiZHJzNGV9SBJOS" target="_blank">I Must Work & I Must Die</a></div>
+<div class="_01_review">The title, Beauty & Sadness reveals exactly what this album is. It’s a mosaic of beauty and melancholy, but it’s hard to feel sad when listening to it. Maybe beauty and sadness aren’t complete opposites, but they are surely juxtaposed well here. Horsebeach falls into a whirl of shoegaze and the jangling guitars of C-86, floating in the smoothness of reverb-soaked sounds, at times groovy bass lines, and hazy synths. Feelings of longing and sadness press against happy sounds and emit an airy quality––easy on the ears and sugge-stive of a roadtrip to somewhere sunny, or you know, rainy. </div>
+
+<!-- Contact -->
+<section id="contact" class="bg_contact"></section>
+<div class="contact_head">Let's Get In Touch and Talk More About Music.</div>
+<div class="contact_body">Let’s talk more about music. Or design. Or your dog. If you want to get in touch with me, feel free to send me an <a href="mailto:flowersareradco@gmail.com"><div class="contact_paragraph_bold">e-mail</div></a> or <a href="https://twitter.com/lauralucy_f" target="_blank"><div class="contact_paragraph_bold">tweet me</div></a>. Find me on <a href="https://www.instagram.com/lauralucy_f/" target="_blank"><div class="contact_paragraph_bold">Instagram</div></a> or on <a href="https://open.spotify.com/user/lauralucy_f" target="_blank"><div class="contact_paragraph_bold">Spotify</div></a> for more playlists or over at my <a href="http://www.lauralucyf.com/" target="_blank"><div class="contact_paragraph_bold">blog</div></a> for more music recommendations and other fun things. If you only want to argue about the order of these albums, I’ll tell you this: I cannot, no matter how hard I try, put my favorite albums in order. So even though these are numbered, it’s only for organizational purposes.</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
